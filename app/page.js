@@ -63,18 +63,18 @@ function HomePageContent(props) {
                     {/* <p>Diseñé algunos servicios para que puedas elegir entre (...)</p> */}
                     <div className={styles.contenedorServicios}>
                         <ItemServicio
-                            tituloServicio="Sitios estáticos"
-                            descripcionServicio="Diseño y desarrollo de un sitio informativo adaptado a tus necesidades. Ideal para proyectos con pocas actualizaciones."
+                            tituloServicio="Portafolio Estándar"
+                            descripcionServicio="Diseño de un portafolio web sobre una estructura estandarizada, expandible, y pensada para mostrar tus proyectos con una imagen cuidada y en plazos cortos."
                             url="#"
                         />
                         <ItemServicio
-                            tituloServicio="Sitios autoadministrables"
-                            descripcionServicio="Diseño y programación de un tema a medida en WordPress, para que puedas gestionar tus actualizaciones de contenido en el futuro."
+                            tituloServicio="Diseño a medida"
+                            descripcionServicio="Creación de una web a partir de un proceso de diseño de varias etapas, en el cual identificamos la mejor manera de mostrar tu trabajo."
                             url="#"
                         />
                         <ItemServicio
-                            tituloServicio="Desarrollo personalizado"
-                            descripcionServicio="¿Tenés en mente un proyecto que no se ajusta a las categorías anteriores? Escribime para un presupuesto personalizado."
+                            tituloServicio="Desarrollo de Interfaces"
+                            descripcionServicio="Interfaces y visualizaciones construidas a medida, a partir de un proceso basado en objetivos, usando tecnologías multimedia para plataformas web."
                             url="#"
                         />
                     </div>
