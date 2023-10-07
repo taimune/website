@@ -1,0 +1,45 @@
+.form {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.fields {
+    margin-bottom: 2rem;
+}
+
+.fields > * + * {
+    margin-top: 1rem;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.formInput {
+    height: 2rem;
+}
+
+.formInputLarge {
+    height: 8rem;
+}
+
+.formInput, .formInputLarge, .formSelect {
+    padding: 0.5rem;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 1px solid var(--tai-pink-main);
+}
+
+
+.formSelect > option {
+    background-color: var(--tai-teal-main);
+    font-weight: inherit;
+}

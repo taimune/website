@@ -1,0 +1,17 @@
+.button {
+    background-color: var(--tai-pink-main);
+    color: var(--tai-teal-main);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: inherit;
+    padding: 0.5rem 1rem 0.65rem 1rem;
+    border: 0;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    border-radius: 0.25rem;
+}
+
+.button:hover {
+    background-color: var(--tai-pink-200);
+}

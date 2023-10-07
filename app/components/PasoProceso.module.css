@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    /* outline: 1px solid var(--tai-pink-main); */
+    background-color: rgba(0,0,0,0.25);
+}
+
+.grafico {
+    background-color: var(--tai-teal-1000);
+    width: 5rem;
+    height: 5rem;
+    align-self: center;
+}
+
+.numero {
+    font-weight: 200;
+}
+
+.titulo {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.descripcion {
+    margin: 0;
+}
+
+.texto {
+    width: 100%;
+    /* Corregir desplazamiento por caja tipográfica grande */
+    /* transform: translateY(-0.75rem); */
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        flex-direction: row;
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+/* Preloader */
+
+.preload {
+    background-color: var(--tai-teal-main);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    z-index: -100;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+.preload > img {
+    width: 4rem;
+}
+
+.preload_loaded {
+    opacity: 0;
+    pointer-events: all;
+}

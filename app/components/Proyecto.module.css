@@ -1,0 +1,51 @@
+.main {
+    background-color: var(--tai-teal-1200);
+    /* padding: 1rem; */
+    /* outline: 1px solid var(--tai-teal-1200); */
+    border: 1px solid var(--tai-pink-main);
+}
+
+.imageLink {
+    position: relative;
+}
+
+.imagen {
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    opacity: 0.6;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+}
+
+.imagen:hover {
+    opacity: 1;
+}
+
+.texto {
+    padding: 1rem 2rem 1.5rem 2rem;
+}
+
+.nombre {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.año {
+    display: block;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.descripcion {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    display: block;
+    font-size: 1rem;
+}
+
+.link {
+    font-size: 1rem;
+}

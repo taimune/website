@@ -1,0 +1,8 @@
+.main {
+    background: linear-gradient(var(--tai-teal-main), var(--tai-teal-1000));
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
