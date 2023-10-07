@@ -14,7 +14,6 @@ Features y commits.txt
 
 # next.js
 /.next/
-/out/
 
 # production
 /build
