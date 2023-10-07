@@ -82,6 +82,7 @@ function HomePageContent(props) {
 
                 <section className={styles.proceso} id="proceso">
                     <h2>Cómo trabajo</h2>
+                    <p>Todos los proyectos se construyen siguiendo un proceso general, que adopta distintas formas según el trabajo en cuestión:</p>
                     <ol className={styles.pasosProceso}>
                         <li>
                             <PasoProceso
@@ -95,23 +96,23 @@ function HomePageContent(props) {
                             <PasoProceso
                                 imagen='/icono-diseno.svg'
                                 numero='02'
-                                titulo='Diseño'
-                                descripcion='Una vez definidos los criterios del sitio, se seleccionan referencias de estilo, se esquematizan los contenidos y se generan las propuestas de diseño sobre las cuales se construye el diseño final.'
+                                titulo='Exploración'
+                                descripcion='Una vez definidos los criterios de trabajo, se generan moodboards, propuestas de diseño, esquemas o prototipos para bajar las necesidades a ideas concretas y definir un camino a seguir.'
                             />
                         </li>
                         <li>
                             <PasoProceso
-                                imagen='/icono-programacion.svg'
+                                imagen='/icono-resolucion.svg'
                                 numero='03'
-                                titulo='Programación'
-                                descripcion='Después de haber definido un diseño, el mismo se implementa en código, se incorporan las funcionalidades necesarias y se sube a la web.'
+                                titulo='Resolución'
+                                descripcion='A partir de las ideas barajadas se delimita la forma final del proyecto, y se da paso a la construcción y publicación del mismo.'
                             />
                         </li>
                     </ol>
                 </section>
 
                 <section id="proyectos" className={styles.proyectos}>
-                    <h2>Proyectos</h2>
+                    <h2>Proyectos realizados</h2>
                     <p>Algunos proyectos en los que trabajé:</p>
                     <div className={styles.contenedorProyectos}>
                         <Proyecto
