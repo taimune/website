@@ -20,10 +20,7 @@ export default function Home() {
         <body>
             <main className={styles.main}>
                 {/* Main nav */}
-                <MainNav
-                    intersectionTargetSelector='section#home'
-                    intersectionThreshold='0.5'
-                ></MainNav>
+                <MainNav />
                 <section id="home" className={styles.home}>
 
                     <div className={styles.homeBackground}></div>
