@@ -1,15 +1,9 @@
-'use client';
-
 import styles from './page.module.css'
 import MainNav from './components/MainNav'
 import ItemServicio from './components/ItemServicio';
 import ContactForm from './components/ContactForm';
 import PasoProceso from './components/PasoProceso';
 import Proyecto from './components/Proyecto';
-import { useEffect, useLayoutEffect } from 'react';
-import { useState } from 'react';
-// import dynamic from 'next/dynamic';
-import Preloader from './components/Preloader.js';
 
 export const metadata = {
     title: 'Taimuné | Diseño Web',
@@ -17,15 +11,14 @@ export const metadata = {
 
 
 function HomePageContent(props) {
+    
+}
 
-    const [isVisible, setIsVisible] = useState(props.visible);
-
-    useEffect(() => {
-        setIsVisible(true);
-    }, []);
+export default function Home() {
 
     return (
-        <main className={styles.main} style={{opacity: isVisible ? 1 : 0}}>
+        <body>
+            <main className={styles.main}>
                 {/* Main nav */}
                 <MainNav
                     intersectionTargetSelector='section#home'
@@ -177,43 +170,6 @@ function HomePageContent(props) {
                 </footer> */}
 
             </main>
-    )
-}
-
-function DynamicHomePageContent() {
-    // Solo se renderiza el contenido si Javascript está activo
-    const [isLoaded, setIsLoaded] = useState(false);
-
-    useEffect(() => {
-        setIsLoaded(true);
-    }, [])
-
-    return (
-        isLoaded ? <HomePageContent visible={false}/> : null
-    )
-}
-
-// export default function Home() {
-
-//     return (
-//         <body>
-//             {/* Fondo estático */}
-//             <Preloader/>
-//             <noscript>
-//                 {/* Contenido estático siempre visible */}
-//                 <HomePageContent visible={true} />
-//             </noscript>
-//             {/* Solo se carga si Javascript puede modificar su estado */}
-//             <DynamicHomePageContent/>
-//         </body>
-//     )
-// }
-
-export default function Home() {
-
-    return (
-        <body>
-            <HomePageContent visible={true} />
         </body>
     )
 }
