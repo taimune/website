@@ -8,3 +8,16 @@
     padding: 2.2rem 2rem;
     outline: 1px solid var(--tai-pink-main);
 }
+
+.botonResaltado:link,
+.botonResaltado:visited,
+.botonResaltado:hover,
+.botonResaltado:active
+{
+    color: var(--tai-teal-main);
+    background-color: var(--tai-pink-main);
+    align-self: flex-start;
+    padding: 0.2rem 1rem 0.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}

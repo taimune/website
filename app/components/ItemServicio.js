@@ -7,7 +7,10 @@ export default function ItemServicio(props) {
             <h3 className='header-servicio'>{props.tituloServicio}</h3>
             <p>{props.descripcionServicio}</p>
             </div>
-            <a href="#contacto">Consultar</a>
+            <a href={props.url} className={props.botonResaltado ? styles.botonResaltado : null}>
+                {props.textoLink ? props.textoLink : "Consultar"}
+            </a>
+            
         </div>
     )
 }

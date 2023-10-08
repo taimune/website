@@ -55,7 +55,9 @@ export default function Home() {
                         <ItemServicio
                             tituloServicio="Portafolio Estándar"
                             descripcionServicio="Diseño de un portafolio web sobre una estructura estandarizada, expandible, y pensada para mostrar tus proyectos con una imagen cuidada y en plazos cortos."
-                            url="#"
+                            url="/portafolio-estandar"
+                            textoLink="Ver detalles"
+                            botonResaltado={true}
                         />
                         <ItemServicio
                             tituloServicio="Diseño a medida"
