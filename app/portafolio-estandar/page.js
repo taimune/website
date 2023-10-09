@@ -9,32 +9,54 @@ export default function PortafolioEstandar() {
 
     return (
         <body>
-            <main>
+            <main className={styles.main}>
                 <MainNav />
                 <section id="hero" className={styles.hero}>
-                    <h1>Portafolio Estándar</h1>
-                    <p>Una web sencilla, expandible y personalizada</p>
+                    <div className={styles.hero_layout}>
+                        <h1 className={styles.hero_titulo}>Portafolio <span className={styles.hero_tituloResaltado}>Estándar</span></h1>
+                        <p className={styles.hero_subtitulo}>Una web sencilla, expandible y personalizada</p>
+                        <a className={styles.botonBorde}>Contratar</a>
+                    </div>
                 </section>
 
-                <section id="descripcion">
-                    <h2>De qué se trata</h2>
-                    <p>El Portafolio Estándar esta pensado como una plataforma desde la cual comenzar a mostrar tu producción. Es una propuesta sencilla y accesible, pero que a la vez prioriza la personalización y la posibilidad de reflejar de extensión a futuro.</p>
-                    <p>Construimos un sitio sobre una estructura estandarizada, pero adaptable en términos de color, tipografía, escala y espaciados; el resultado es un sitio amoldado a tu imagen, creado con un proceso de trabajo sencillo y claro.</p>
-                    <p>El sitio que recibís es completamente tuyo: junto con la publicación del sitio se te entregan los archivos para que puedas disponer de ellos libremente, así como los accesos de los servicios usados para poner el sitio en linea.</p>
+                <section id="descripcion" className={styles.descripcion}>
+                    <div className={styles.descripcion_layout}>
+                        <div className={styles.descripcion_panelTexto}>
+                            <div className={styles.contenedorTexto}>
+                                <h2 className={styles.descripcion_titulo}>De qué se trata</h2>
+                                <p>El <strong>Portafolio Estándar</strong> está pensado como una plataforma desde la cual comenzar a mostrar tu producción. Es una propuesta sencilla y accesible, pero que a la vez prioriza la personalización y la posibilidad de reflejar de extensión a futuro.</p>
+                                <p>Construimos un sitio sobre una estructura estandarizada, pero adaptable en términos de color, tipografía, escala y espaciados; el resultado es un sitio amoldado a tu imagen, creado con un proceso de trabajo sencillo y claro.</p>
+                                <p>El sitio que recibís es completamente tuyo: junto con la publicación del sitio se te entregan los archivos para que puedas disponer de ellos libremente, así como los accesos de los servicios usados para poner el sitio en linea.</p>
+                            </div>
+                        </div>
+                        <div className={styles.descripcion_panelImagen}></div>
+                    </div>
                 </section>
 
-                <section id="ejemplos">
-                    <h2>Secciones y diseños posibles</h2>
-                    <p>La estructura que te ofrecemos comprende en primer lugar una portada, una sección de galerías, y hasta tres secciones informativas; estas secciones pueden estar en páginas separadas, o pueden ser apartados dentro de una única pagina de inicio.</p>
-                    <p>Además, el sitio incluye hasta cinco galerías de imagenes, en las que se pueden repartir hasta 50 imágenes. Cada galería tiene su propia página para que la puedas compartir individualmente.</p>
-                    <p>Los siguientes diseños fueron creados solamente a modo de ejemplo y representan proyectos ficticios, pero ilustran la flexibilidad de la propuesta.</p>
+                <section id="ejemplos" className={styles.ejemplos}>
+                    <div className={styles.introEjemplos}>
+                        <div className={styles.introEjemplos_layout}>
+                            <div className={styles.contenedorTexto}>
+                                <h2 className={styles.introEjemplos_titulo}>Secciones y diseños posibles</h2>
+                                <p>La estructura que te ofrecemos comprende en primer lugar una portada, una sección de galerías, y hasta tres secciones informativas; estas secciones pueden estar en páginas separadas, o pueden ser apartados dentro de una única pagina de inicio.</p>
+                                <p>Además, el sitio incluye hasta cinco galerías de imagenes, en las que se pueden repartir hasta 50 imágenes. Cada galería tiene su propia página para que la puedas compartir individualmente.</p>
+                                <p>Los siguientes diseños fueron creados solamente a modo de ejemplo y representan proyectos ficticios, pero ilustran la flexibilidad de la propuesta.</p>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h3>1- Portada</h3>
-                    <p>La página de inicio incluye una imagen de portada, un menú y un logo (puede ser tipográfico o ilustrado). El menú y el logo pueden ir ubicados a la izquierda de la pantalla o en la parte superior, y la imagen puede estar contenida en un marco u ocupar toda la pantalla.</p>
-                    <img alt="Captura de pantalla de portada"></img>
-                    <img alt="Captura de pantalla de portada"></img>
-                    <img alt="Captura de pantalla de portada"></img>
-
+                    <div className={styles.itemEjemplos}>
+                        <div className={styles.itemEjemplos_texto}>
+                            <h3 className={styles.itemEjemplos_titulo}>1- Portada:</h3>
+                            <p>La página de inicio incluye una imagen de portada, un menú y un logo (puede ser tipográfico o ilustrado). El menú y el logo pueden ir ubicados a la izquierda de la pantalla o en la parte superior, y la imagen puede estar contenida en un marco u ocupar toda la pantalla.</p>
+                        </div>
+                        <div className={styles.itemEjemplos_grilla}>
+                            <img alt="Captura de pantalla de portada"></img>
+                            <img alt="Captura de pantalla de portada"></img>
+                            <img alt="Captura de pantalla de portada"></img>
+                        </div>
+                    </div>
+                        
                     <h3>2- Sección de Galerías</h3>
                     <p>Este es el punto de inicio para comenzar a recorrer tus trabajos. Incluye hasta cinco links a galerías, cada una con una imagen de portada, un nombre, y (opcionalmente) una descripción breve. Cada galería es una colección de imágenes que puede representar, por ejemplo, una serie, una obra o una categoría, entre otras cosas.</p>
                     <img alt="Captura de pantalla de sección de galerías"></img>

@@ -1,0 +1,186 @@
+.main {
+    --page-margin: 4rem;
+    --large-page-margin: 6rem;
+}
+
+.hero {
+    background-color: var(--tai-teal-1300);
+    padding: var(--page-margin);
+    background-image: url("/header-portafolio-individual.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_layout {
+    min-height: 60vh;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero_titulo {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    .hero_titulo {
+        font-size: 3.5rem;
+        font-weight: 300;
+        margin: 0;
+    }
+}
+
+.hero_tituloResaltado {
+    font-weight: 500;
+}
+
+.hero_subtitulo {
+    font-size: 2.2rem;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 800px) {
+    .hero_subtitulo {
+        font-size: 2.2rem;
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+}
+
+/*-------------*/
+
+.descripcion {
+    background-color: var(--tai-teal-main);
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    .descripcion {
+        font-size: 0.9rem;
+    }
+}
+
+.descripcion_titulo {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
+.descripcion_layout {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+}
+
+@media screen and (min-width: 800px) {
+    .descripcion_layout {
+        grid-template-columns: 2.5fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+.descripcion_panelTexto {
+    padding: var(--page-margin);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.descripcion_panelImagen {
+    height: 100%;
+    background-image: url("/lateral-portafolio-individual.png");
+    background-size: cover;
+}
+
+@media screen and (min-width: 800px) {
+    .descripcion_panelImagen {
+        background-position: center;
+    }
+}
+
+/*-------------*/
+
+.ejemplos {
+    font-size: 1rem;
+    background-color: var(--tai-teal-1200);
+}
+
+@media screen and (min-width: 800px) {
+    .ejemplos {
+        font-size: 0.9rem;
+    }
+}
+
+.introEjemplos {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.introEjemplos_layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: var(--page-margin);
+    padding-right: var(--page-margin);
+}
+
+.introEjemplos::after{
+    content: "";
+    display: inline-block;
+    max-width: 30ch;
+    width: 50%;
+    height: 1px;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: var(--tai-pink-main);
+}
+
+.introEjemplos_titulo {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+/*-----*/
+
+.itemEjemplos {
+    padding-left:   var(--large-page-margin);
+    padding-right:  var(--large-page-margin);
+}
+
+.itemEjemplos_titulo {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.itemEjemplos_texto {
+    max-width: 60ch;
+    padding-bottom: 6rem;
+}
+
+/* Globales de página */
+
+.contenedorTexto {
+    max-width: 60ch;
+}
+
+.botonBorde,
+.botonBorde:link,
+.botonBorde:visited,
+.botonBorde:hover,
+.botonBorde:active
+{
+    font-size: 1rem;
+    padding: 0.25rem 1.5rem 0.55rem;
+    align-self: flex-start;
+    color: var(--tai-pink-main);
+    outline: 1px solid var(--tai-pink-main);
+    cursor: pointer;
+    text-transform: uppercase;
+}

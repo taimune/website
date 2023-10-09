@@ -129,6 +129,12 @@ h3, .h3 {
   margin-bottom: 0;
 }
 
+/* Otros items tipográficos */
+
+strong {
+  font-weight: 400;
+}
+
 textarea {
   resize: none;
 }
