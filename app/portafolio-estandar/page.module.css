@@ -1,6 +1,7 @@
 .main {
-    --page-margin: 4rem;
-    --large-page-margin: 6rem;
+    --page-margin: 5%;
+    --large-page-margin: 8%;
+    --grid-gap: 12px;
 }
 
 .hero {
@@ -152,6 +153,7 @@
 .itemEjemplos {
     padding-left:   var(--large-page-margin);
     padding-right:  var(--large-page-margin);
+    padding-bottom: 5rem;
 }
 
 .itemEjemplos_titulo {
@@ -161,7 +163,26 @@
 
 .itemEjemplos_texto {
     max-width: 60ch;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
+}
+
+/*-----*/
+
+.itemEjemplos_grilla {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content;
+}
+
+.itemEjemplos_grilla > * {
+    width: 100%;
+    height: auto;
+}
+
+.itemEjemplos_gridItemWide {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 /* Globales de página */

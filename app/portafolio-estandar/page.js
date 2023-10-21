@@ -51,26 +51,45 @@ export default function PortafolioEstandar() {
                             <p>La página de inicio incluye una imagen de portada, un menú y un logo (puede ser tipográfico o ilustrado). El menú y el logo pueden ir ubicados a la izquierda de la pantalla o en la parte superior, y la imagen puede estar contenida en un marco u ocupar toda la pantalla.</p>
                         </div>
                         <div className={styles.itemEjemplos_grilla}>
-                            <img alt="Captura de pantalla de portada"></img>
-                            <img alt="Captura de pantalla de portada"></img>
-                            <img alt="Captura de pantalla de portada"></img>
+                            <img className={styles.itemEjemplos_gridItemWide} src="/mockups/home_1.png" alt="Captura de pantalla de portada"></img>
+                            <img src="/mockups/home_2.png" alt="Captura de pantalla de portada"></img>
+                            <img src="/mockups/home_3.png" alt="Captura de pantalla de portada"></img>
                         </div>
                     </div>
                         
-                    <h3>2- Sección de Galerías</h3>
-                    <p>Este es el punto de inicio para comenzar a recorrer tus trabajos. Incluye hasta cinco links a galerías, cada una con una imagen de portada, un nombre, y (opcionalmente) una descripción breve. Cada galería es una colección de imágenes que puede representar, por ejemplo, una serie, una obra o una categoría, entre otras cosas.</p>
-                    <img alt="Captura de pantalla de sección de galerías"></img>
+                    <div className={styles.itemEjemplos}>
+                        <div className={styles.itemEjemplos_texto}>
+                            <h3 className={styles.itemEjemplos_titulo}>2- Sección de Galerías</h3>
+                            <p>Este es el punto de inicio para comenzar a recorrer tus trabajos. Incluye hasta cinco links a galerías, cada una con una imagen de portada, un nombre, y (opcionalmente) una descripción breve. Cada galería es una colección de imágenes que puede representar, por ejemplo, una serie, una obra o una categoría, entre otras cosas.</p>
+                        </div>
+                        <div className={styles.itemEjemplos_grilla}>
+                            <img className={styles.itemEjemplos_gridItemWide} src="/mockups/indice_galerias.png" alt="Captura de pantalla de sección de galerías"></img>
+                        </div>
+                    </div>
 
-                    <h3>3- Galerías individuales</h3>
-                    <p>Cada link de la sección anterior lleva a una galeria individual. Una galería incluye una grilla de imágenes, cada una de las cuales puede contener un nombre y una descripción de hasta cinco líneas. Esta descripción puede ser usada para incluir datos como año, formato, premios o exhibiciones, entre otros.</p>
-                    <p>La grilla es flexible en cuanto a la distribución de las fotos: se puede modificar su ancho, el espacio entre imágenes, y la cantidad de imágenes por fila. Las imágenes se pueden ampliar haciendo clic en ellas; esto abre una galeria para recorrer las imágenes a pantalla completa.</p>
-                    <img alt="Captura de pantalla de galería individual"></img>
-                    <img alt="Captura de pantalla de galería individual"></img>
+                    <div className={styles.itemEjemplos}>
+                        <div className={styles.itemEjemplos_texto}>
+                            <h3 className={styles.itemEjemplos_titulo}>3- Galerías individuales</h3>
+                            <p>Cada link de la sección anterior lleva a una galeria individual. Una galería incluye una grilla de imágenes, cada una de las cuales puede contener un nombre y una descripción de hasta cinco líneas. Esta descripción puede ser usada para incluir datos como año, formato, premios o exhibiciones, entre otros.</p>
+                            <p>La grilla es flexible en cuanto a la distribución de las fotos: se puede modificar su ancho, el espacio entre imágenes, y la cantidad de imágenes por fila. Las imágenes se pueden ampliar haciendo clic en ellas; esto abre una galeria para recorrer las imágenes a pantalla completa.</p>
+                        </div>
+                        <div className={styles.itemEjemplos_grilla}>
+                            <img src="/mockups/galeria_1.png" alt="Captura de pantalla de galería individual"></img>
+                            <img src="/mockups/galeria_2.png" alt="Captura de pantalla de galería individual"></img>
+                        </div>
+                    </div>
 
-                    <h3>4- Secciones informativas</h3>
-                    <p>Estas secciones estan pensadas para que puedas incluir contenido textual: por ejemplo, una bio, un statement, o cualquier otro tipo de información sobre vos o tu trabajo. Se incluyen hasta tres secciones, y cada una de ellas puede contener un texto y una imagen.</p>
-                    <p>Opcionalmente, se puede usar una de las secciones para incluir información de contacto, junto con un formulario de contacto (en este caso, no se incluye imagen).</p>
-                    <img alt="Captura de pantalla de sección informativa"></img>
+                    <div className={styles.itemEjemplos}>
+                        <div className={styles.itemEjemplos_texto}>
+                            <h3 className={styles.itemEjemplos_titulo}>4- Secciones informativas</h3>
+                            <p>Estas secciones estan pensadas para que puedas incluir contenido textual: por ejemplo, una bio, un statement, o cualquier otro tipo de información sobre vos o tu trabajo. Se incluyen hasta tres secciones, y cada una de ellas puede contener un texto y una imagen.</p>
+                            <p>Opcionalmente, se puede usar una de las secciones para incluir información de contacto, junto con un formulario de contacto (en este caso, no se incluye imagen).</p>
+                        </div>
+                        <div className={styles.itemEjemplos_grilla}>
+                            <img className={styles.itemEjemplos_gridItemWide} src="/mockups/texto_1.png" alt="Captura de pantalla de sección informativa"></img>
+                        </div>
+                    </div>
+
                 </section>
 
                 <section id="proceso">
