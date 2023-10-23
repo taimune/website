@@ -11,7 +11,7 @@ export default function MainNav(props) {
                     <li className={styles.listItem}><a href="/#servicios">Servicios</a></li>
                     <li className={styles.listItem}><a href="/#proceso">Proceso</a></li>
                     <li>
-                      <a href="#home">
+                      <a href="/#home">
                         <img className={styles.icon} src="icono-rosa.svg" alt="Inicio"/>
                       </a>
                     </li>
