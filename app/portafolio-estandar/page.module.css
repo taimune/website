@@ -231,14 +231,17 @@
 }
 
 .proceso_listaPasos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     padding-left: 0;
     list-style: none;
+    margin-bottom: 1rem;
 }
 
 .proceso_pasoProceso {
+    display: flex;
+    flex-direction: column;
     background-color: var(--tai-teal-1000);
     padding: 1rem 2.5rem 1.5rem;
 }
@@ -252,6 +255,26 @@
 
 .proceso_textoPaso {
     max-width: 30ch;
+    margin: 0;
+}
+
+.proceso_iconoRombo {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .proceso_listaPasos {
+        display: grid;
+        grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+        gap: 0;
+    }
+    .proceso_iconoRombo {
+        display: block;
+        width: 3.2rem;
+        justify-self: center;
+        align-self: center;
+        z-index: 1;
+    }
 }
 
 .proceso_tituloEntregables {
@@ -266,12 +289,18 @@
 }
 
 .proceso_listaEntregables {
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    gap: 2rem;
     padding-top: 1rem;
     padding-left: 0;
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10%;
+}
+@media screen and (min-width: 800px) {
+    .proceso_listaEntregables {
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .proceso_itemEntregables {
@@ -310,7 +339,7 @@
 
 .footer {
     display: block;
-    padding-top:    3rem;
+    padding-top:    5rem;
     padding-bottom: 3rem;
     background-color: var(--tai-teal-1200);
     font-size: 0.9rem;
@@ -321,8 +350,5 @@
 .footer_icono {
     display: block;
     margin: auto;
-}
-
-.footer_texto {
-
+    width: 2rem;
 }

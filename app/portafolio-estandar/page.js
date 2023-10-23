@@ -99,10 +99,12 @@ export default function PortafolioEstandar() {
                             <span className={styles.proceso_numeroPaso}>01</span>
                             <p className={styles.proceso_textoPaso}>Se programa una <strong>reunión</strong> para hablar sobre tu proyecto, pensar referencias y decisiones de diseño, y conversar sobre cómo preparar el contenido;</p>
                         </li>
+                        <img className={styles.proceso_iconoRombo} src="/icono-proceso.svg"/>
                         <li className={styles.proceso_pasoProceso}>
                             <span className={styles.proceso_numeroPaso}>02</span>
                             <p className={styles.proceso_textoPaso}>Se arma un <strong>sitio funcional</strong> a modo de propuesta, en función de lo pensado;</p>
                         </li>
+                        <img className={styles.proceso_iconoRombo} src="/icono-proceso.svg"/>
                         <li className={styles.proceso_pasoProceso}>
                             <span className={styles.proceso_numeroPaso}>03</span>
                             <p className={styles.proceso_textoPaso}>Sobre la propuesta presentada se hacen <strong>ajustes finales</strong>, y se publica la web en el dominio correspondiente.</p>
@@ -141,13 +143,14 @@ export default function PortafolioEstandar() {
                     <div className={styles.informacion_item}>
                         <h3 className={styles.informacion_tituloItem}>Valor y tiempos</h3>
                         <ul className={styles.informacion_listaItems}>
-                            <li>Un Portafolio Estándar tiene un valor fijo de <strong>$60.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a octubre de 2023).</li>
-                            <li>El tiempo de realización es de <strong>una semana hábil</strong> desde el momento en que recibamos todos los materiales necesarios para trabajar.</li>
+                            <li>Un Portafolio Estándar tiene un valor fijo de <strong>$60.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a octubre de 2023). El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
+                            <li>El tiempo de realización es de <strong>una semana hábil</strong> desde el momento en que recibamos las referencias y todos los contenidos necesarios para el sitio, incluyendo la construcción de la propuesta y las revisiones finales.</li>
+                            <li>Una vez publicado el sitio, tenés una <strong>garantía de 30 días</strong> por cualquier falla o imprevisto.</li>
                         </ul>
                     </div>
                 </section>
                 <footer className={styles.footer}>
-                    <img className={styles.footer_icono} src="icono-footer.svg"/>
+                    <img className={styles.footer_icono} src="/icono-dedicacion.svg"/>
                     <span className={styles.footer_texto}>Construimos con dedicación</span>
                 </footer>
             </main>
