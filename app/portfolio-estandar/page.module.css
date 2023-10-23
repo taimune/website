@@ -226,6 +226,7 @@
     background: var(--tai-pink-main);
     font-weight: 300;
     font-size: 0.9rem;
+    text-decoration: none;
 }
 
 /*-------------*/

@@ -106,21 +106,21 @@ export default function Home() {
                     {/* <p>Diseñé algunos servicios para que puedas elegir entre (...)</p> */}
                     <div className={styles.contenedorServicios}>
                         <ItemServicio
-                            tituloServicio="Portafolio Estándar"
-                            descripcionServicio="Diseño de un portafolio web sobre una estructura estandarizada, expandible, y pensada para mostrar tus proyectos con una imagen cuidada y en plazos cortos."
-                            url="/portafolio-estandar"
+                            tituloServicio="Portfolio Estándar"
+                            descripcionServicio="Diseño de un portfolio web sobre una estructura estandarizada, expandible, y pensada para mostrar tus proyectos con una imagen cuidada y en plazos cortos."
+                            url="/portfolio-estandar"
                             textoLink="Ver detalles"
                             botonResaltado={true}
                         />
                         <ItemServicio
                             tituloServicio="Diseño a medida"
                             descripcionServicio="Creación de una web a partir de un proceso de diseño de varias etapas, en el cual identificamos la mejor manera de mostrar tu trabajo."
-                            url="#"
+                            url="/#contacto"
                         />
                         <ItemServicio
                             tituloServicio="Desarrollo de Interfaces"
                             descripcionServicio="Interfaces y visualizaciones construidas a medida, a partir de un proceso basado en objetivos, usando tecnologías multimedia para plataformas web."
-                            url="#"
+                            url="/#contacto"
                         />
                     </div>
                 </section>
