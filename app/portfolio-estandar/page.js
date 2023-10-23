@@ -2,7 +2,26 @@ import MainNav from "../components/MainNav";
 import styles from './page.module.css';
 
 export const metadata = {
-    title: 'Taimuné | Diseño Web',
+    title: 'Portfolio Estándar | Taimuné',
+    description: "¿Necesitás mostrar tus trabajos en línea? Entrá para saber cómo te podemos ayudar.",
+    keywords: ["portfolios web para artistas", "diseño web para artistas", "desarrollo web para artistas", "páginas web para artistas", "sitios web para artistas"],
+    canonical: "/",
+    openGraph: {
+        title: 'Portfolio Estándar | Desarrollo de portfolio web',
+        description: '¿Necesitás mostrar tus trabajos en línea? Entrá para saber cómo te podemos ayudar.',
+        url: 'https://taimune.com.ar',
+        siteName: 'Taimune.com.ar',
+        images: "/taimune-diseño-web.png",
+        locale: 'es_AR',
+        type: 'article',
+        publishedTime: '2023-10-23T00:00:00.000Z',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Portfolio Estándar | Desarrollo de portfolio web',
+        description: '¿Necesitás mostrar tus trabajos en línea? Entrá para saber cómo te podemos ayudar.',
+        images: ["/taimune-diseño-web.png"],
+    },
   };
 
 export default function PortfolioEstandar() {

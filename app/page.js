@@ -7,12 +7,27 @@ import Proyecto from './components/Proyecto';
 
 export const metadata = {
     title: 'Taimuné | Diseño Web',
+    description: "Servicios de diseño y desarrollo web para artistas y creativos.",
+    keywords: ["Taimuné", "Taimune", "diseño web para artistas", "desarrollo web para artistas", "portfolios web para artistas", "páginas web para artistas", "sitios web para artistas"],
+    canonical: "/",
+    openGraph: {
+        title: 'Taimuné',
+        description: 'Diseño y desarrollo web para artistas y creativos',
+        url: 'https://taimune.com.ar',
+        siteName: 'Taimune.com.ar',
+        images: "/taimune-diseño-web.png",
+        locale: 'es_AR',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Taimuné',
+        description: 'Diseño y desarrollo web para artistas y creativos.',
+        images: ["/taimune-diseño-web.png"],
+    },
+
   };
 
-
-function HomePageContent(props) {
-    
-}
 
 export default function Home() {
 

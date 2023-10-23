@@ -4,11 +4,16 @@ import Head from 'next/head'
 
 // const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
+  metadataBase: new URL("https://taimune.com.ar"),
   icons: {
-    // other: {
-    //   rel: 'stylesheet',
-    //   url: 'https://use.typekit.net/szq0tzq.css',
-    // },
+    icon: '/favicon.svg',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
 }
 

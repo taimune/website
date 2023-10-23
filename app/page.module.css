@@ -140,9 +140,7 @@
 
 .servicios {
     position: relative;
-    /* background-color: var(--tai-teal-300); */
     color: var(--tai-pink-main);
-    /* background: linear-gradient(var(--tai-teal-900), var(--tai-teal-800)); */
     background-image: url('/fondo-servicios.png');
     background-position: center;
     background-size: cover;
