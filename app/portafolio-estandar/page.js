@@ -5,7 +5,7 @@ export const metadata = {
     title: 'Taimuné | Diseño Web',
   };
 
-export default function PortafolioEstandar() {
+export default function PortfolioEstandar() {
 
     return (
         <body>
@@ -13,7 +13,7 @@ export default function PortafolioEstandar() {
                 <MainNav />
                 <section id="hero" className={styles.hero}>
                     <div className={styles.hero_layout}>
-                        <h1 className={styles.hero_titulo}>Portafolio <span className={styles.hero_tituloResaltado}>Estándar</span></h1>
+                        <h1 className={styles.hero_titulo}>Portfolio <span className={styles.hero_tituloResaltado}>Estándar</span></h1>
                         <p className={styles.hero_subtitulo}>Una web sencilla, expandible y personalizada</p>
                         <a className={styles.botonBorde}>Contratar</a>
                     </div>
@@ -24,7 +24,7 @@ export default function PortafolioEstandar() {
                         <div className={styles.descripcion_panelTexto}>
                             <div className={styles.contenedorTexto}>
                                 <h2 className={styles.descripcion_titulo}>De qué se trata</h2>
-                                <p>El <strong>Portafolio Estándar</strong> está pensado como una plataforma desde la cual comenzar a mostrar tu producción. Es una propuesta sencilla y accesible, pero que a la vez prioriza la personalización y la posibilidad de reflejar de extensión a futuro.</p>
+                                <p>El <strong>Portfolio Estándar</strong> está pensado como una plataforma desde la cual comenzar a mostrar tu producción. Es una propuesta sencilla y accesible, pero que a la vez prioriza la personalización y la posibilidad de reflejar de extensión a futuro.</p>
                                 <p>Construimos un sitio sobre una estructura estandarizada, pero adaptable en términos de color, tipografía, escala y espaciados; el resultado es un sitio amoldado a tu imagen, creado con un proceso de trabajo sencillo y claro.</p>
                                 <p>El sitio que recibís es completamente tuyo: junto con la publicación del sitio se te entregan los archivos para que puedas disponer de ellos libremente, así como los accesos de los servicios usados para poner el sitio en linea.</p>
                             </div>
@@ -126,12 +126,12 @@ export default function PortafolioEstandar() {
                         <ul className={styles.informacion_listaItems}>
                             <li>Para ser publicado, un sitio necesita de dos cosas: un <strong>dominio</strong> (la dirección de tu sitio, por ejemplo: “www.taimune.com.ar”) y un <strong>hosting</strong> (el lugar en donde se guardan los contenidos y los archivos del sitio).</li>
                             <li>En el caso del dominio, te guiamos en la elección, contratación y configuración de un dominio, para que el registro quede hecho a tu nombre y tengas total libertad sobre el mismo. Todos los dominios tienen un precio de contratación y renovación anual, que depende del provedor.</li>
-                            <li>En el caso del hosting, se utilizan servicios de publicación web sin costo, disponibles para sitios sencillos: esto permite obviar el costo de un servicio de hosting tradicional, que incluye una infraestructura que este tipo de sitios no necesita (como por ejemplo, bases de datos o casillas de correo). Como los archivos del sitio son tuyos, siempre se puede mover el sitio a un hosting tradicional en caso de ser necesario.</li>
+                            <li>En el caso del hosting, utilizamos servicios de publicación web sin costo, disponibles para sitios sencillos: esto permite obviar el costo de un servicio de hosting tradicional, que incluye una infraestructura que este tipo de sitios no necesita (como por ejemplo, bases de datos o casillas de correo). Como los archivos del sitio son tuyos, siempre se puede mover el sitio a un hosting tradicional en caso de ser necesario.</li>
                         </ul>
                     </div>
 
                     <div className={styles.informacion_item}>
-                        <h3 className={styles.informacion_tituloItem}>Qué NO incluye un portafolio estándar</h3>
+                        <h3 className={styles.informacion_tituloItem}>Qué NO incluye un portfolio estándar</h3>
                         <ul className={styles.informacion_listaItems}>
                             <li>El sitio <strong>no incluye videos</strong> de ningún tipo, pero se pueden presupuestar como un extra.</li>
                             <li>No se incluyen casillas de correo con dominio personalizado.</li>
@@ -143,11 +143,12 @@ export default function PortafolioEstandar() {
                     <div className={styles.informacion_item}>
                         <h3 className={styles.informacion_tituloItem}>Valor y tiempos</h3>
                         <ul className={styles.informacion_listaItems}>
-                            <li>Un Portafolio Estándar tiene un valor fijo de <strong>$60.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a octubre de 2023). El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
+                            <li>Un Portfolio Estándar tiene un valor fijo de <strong>$60.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a octubre de 2023). El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
                             <li>El tiempo de realización es de <strong>una semana hábil</strong> desde el momento en que recibamos las referencias y todos los contenidos necesarios para el sitio, incluyendo la construcción de la propuesta y las revisiones finales.</li>
                             <li>Una vez publicado el sitio, tenés una <strong>garantía de 30 días</strong> por cualquier falla o imprevisto.</li>
                         </ul>
                     </div>
+                    <a className={styles.botonRelleno} href="/#contacto">Pedir mi portfolio</a>
                 </section>
                 <footer className={styles.footer}>
                     <img className={styles.footer_icono} src="/icono-dedicacion.svg"/>

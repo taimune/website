@@ -258,7 +258,7 @@
     background: linear-gradient(var(--tai-teal-1200), var(--tai-teal-main));
 }
 
-.proyectos::after {
+.proyectos::before {
     position: absolute;
     content: '';
     width: 7rem;
@@ -267,9 +267,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    bottom: 0;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
     z-index: 1;
 }
 

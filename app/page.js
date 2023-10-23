@@ -46,6 +46,59 @@ export default function Home() {
                     </div>
                 </section>
 
+                <section id="proyectos" className={styles.proyectos}>
+                    <h2>Lo que hago</h2>
+                    <p>Acá te muestro una selección de algunos proyectos en los que trabajé:</p>
+                    <div className={styles.contenedorProyectos}>
+                        <Proyecto
+                            urlImagen='/web-invasion-ecologies.png'
+                            url='https://medliq.art/invasion-ecologies/'
+                            nombre='Invasion Ecologies'
+                            año='2022 | Proyecto de investigación artístico'
+                            descripcion='Diseño y programación - Sitio estático'
+                        />
+
+                        <Proyecto
+                            urlImagen='/web-maquina-de-regar.png'
+                            url='https://maquinaderegar.com.ar/'
+                            nombre='Máquina de Regar'
+                            año='2021 | Exhibición virtual'
+                            descripcion='Programación - Sitio estático'
+                        />
+
+                        <Proyecto
+                            urlImagen='/web-mariela-yeregui.png'
+                            url='https://marielayeregui.com/'
+                            nombre='Mariela Yeregui'
+                            año='2021 | Portfolio de artista'
+                            descripcion='Diseño y programación - Sitio de WordPress'
+                        />
+
+                        <Proyecto
+                            urlImagen='/web-sound-window.png'
+                            url='https://melmann.site/sound-window'
+                            nombre='Sound Window'
+                            año='2020 | Experiencia audiovisual interactiva'
+                            descripcion='Diseño y programación - Plugin de WordPress'
+                        />
+
+                        <Proyecto
+                            urlImagen='/web-silvina-de-las-carreras.png'
+                            url='https://silvinadelascarreras.com.ar/'
+                            nombre='Silvina De Las Carreras'
+                            año='2020 | Portfolio de artista'
+                            descripcion='Diseño y programación - Sitio estático'
+                        />
+
+                        <Proyecto
+                            urlImagen='/web-colectivo-arkhe.png'
+                            url='https://colectivoarkhe.com.ar/'
+                            nombre='Colectivo Arkhé'
+                            año='2019 | Colectivo de investigación y producción audiovisual'
+                            descripcion='Diseño y programación - Sitio estático'
+                        />
+                    </div>
+                </section>
 
                 <section id="servicios" className={styles.servicios}>
                     <h2 className='sr-only'>Servicios</h2>
@@ -103,59 +156,7 @@ export default function Home() {
                     </ol>
                 </section>
 
-                <section id="proyectos" className={styles.proyectos}>
-                    <h2>Proyectos realizados</h2>
-                    <p>Algunos proyectos en los que trabajé:</p>
-                    <div className={styles.contenedorProyectos}>
-                        <Proyecto
-                            urlImagen='/web-invasion-ecologies.png'
-                            url='https://medliq.art/invasion-ecologies/'
-                            nombre='Invasion Ecologies'
-                            año='2022 | Proyecto de investigación artístico'
-                            descripcion='Diseño y programación - Sitio estático'
-                        />
-
-                        <Proyecto
-                            urlImagen='/web-maquina-de-regar.png'
-                            url='https://maquinaderegar.com.ar/'
-                            nombre='Máquina de Regar'
-                            año='2021 | Exhibición virtual'
-                            descripcion='Programación - Sitio estático'
-                        />
-
-                        <Proyecto
-                            urlImagen='/web-mariela-yeregui.png'
-                            url='https://marielayeregui.com/'
-                            nombre='Mariela Yeregui'
-                            año='2021 | Portfolio de artista'
-                            descripcion='Diseño y programación - Sitio de WordPress'
-                        />
-
-                        <Proyecto
-                            urlImagen='/web-sound-window.png'
-                            url='https://melmann.site/sound-window'
-                            nombre='Sound Window'
-                            año='2020 | Experiencia audiovisual interactiva'
-                            descripcion='Diseño y programación - Plugin de WordPress'
-                        />
-
-                        <Proyecto
-                            urlImagen='/web-silvina-de-las-carreras.png'
-                            url='https://silvinadelascarreras.com.ar/'
-                            nombre='Silvina De Las Carreras'
-                            año='2020 | Portfolio de artista'
-                            descripcion='Diseño y programación - Sitio estático'
-                        />
-
-                        <Proyecto
-                            urlImagen='/web-colectivo-arkhe.png'
-                            url='https://colectivoarkhe.com.ar/'
-                            nombre='Colectivo Arkhé'
-                            año='2019 | Colectivo de investigación y producción audiovisual'
-                            descripcion='Diseño y programación - Sitio estático'
-                        />
-                    </div>
-                </section>
+                
 
                 <section id="contacto" className={styles.contacto}>
                     <h2>Contacto</h2>

@@ -203,6 +203,7 @@
 .botonBorde:hover,
 .botonBorde:active
 {
+    display: inline-block;
     font-size: 1rem;
     padding: 0.25rem 1.5rem 0.55rem;
     align-self: flex-start;
@@ -210,6 +211,21 @@
     outline: 1px solid var(--tai-pink-main);
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.botonRelleno,
+.botonRelleno:link,
+.botonRelleno:visited,
+.botonRelleno:hover,
+.botonRelleno:active {
+    display: inline-block;
+    padding: 0.25rem 1.5rem 0.55rem;
+    color: var(--tai-teal-main);
+    cursor: pointer;
+    text-transform: uppercase;
+    background: var(--tai-pink-main);
+    font-weight: 300;
+    font-size: 0.9rem;
 }
 
 /*-------------*/
@@ -318,6 +334,7 @@
     background: var(--tai-teal-main);
     padding-left:  var(--large-page-margin);
     padding-right: var(--large-page-margin);
+    padding-bottom: 3rem;
 }
 
 .informacion_item {
@@ -336,6 +353,7 @@
 .informacion_listaItems > li {
     padding-bottom: 1rem;
 }
+
 
 .footer {
     display: block;
