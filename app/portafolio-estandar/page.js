@@ -146,6 +146,10 @@ export default function PortafolioEstandar() {
                         </ul>
                     </div>
                 </section>
+                <footer className={styles.footer}>
+                    <img className={styles.footer_icono} src="icono-footer.svg"/>
+                    <span className={styles.footer_texto}>Construimos con dedicación</span>
+                </footer>
             </main>
         </body>
     )

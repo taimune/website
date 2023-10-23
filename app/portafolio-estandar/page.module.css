@@ -307,3 +307,22 @@
 .informacion_listaItems > li {
     padding-bottom: 1rem;
 }
+
+.footer {
+    display: block;
+    padding-top:    3rem;
+    padding-bottom: 3rem;
+    background-color: var(--tai-teal-1200);
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer_icono {
+    display: block;
+    margin: auto;
+}
+
+.footer_texto {
+
+}
