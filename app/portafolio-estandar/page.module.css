@@ -105,18 +105,24 @@
     }
 }
 
-/*-------------*/
 
-.ejemplos {
+/* Texto de cuerpo de la página */
+
+.ejemplos, .proceso, .informacion {
     font-size: 1rem;
     background-color: var(--tai-teal-1200);
 }
 
 @media screen and (min-width: 800px) {
-    .ejemplos {
+    .ejemplos, .proceso, .informacion {
         font-size: 0.9rem;
     }
 }
+
+
+
+/* SECCIONES */
+
 
 .introEjemplos {
     text-align: center;
@@ -204,4 +210,100 @@
     outline: 1px solid var(--tai-pink-main);
     cursor: pointer;
     text-transform: uppercase;
+}
+
+/*-------------*/
+
+.proceso {
+    background: var(--tai-teal-main);
+    padding-left:  var(--large-page-margin);
+    padding-right: var(--large-page-margin);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.proceso_tituloProceso {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.proceso_listaPasos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5%;
+    padding-left: 0;
+    list-style: none;
+}
+
+.proceso_pasoProceso {
+    background-color: var(--tai-teal-1000);
+    padding: 1rem 2.5rem 1.5rem;
+}
+
+.proceso_numeroPaso {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.proceso_textoPaso {
+    max-width: 30ch;
+}
+
+.proceso_tituloEntregables {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.proceso_contenedorEntregables {
+    background-color: var(--tai-teal-1000);
+    padding: 1rem 2.5rem 1.5rem;
+}
+
+.proceso_listaEntregables {
+    padding-top: 1rem;
+    padding-left: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+
+.proceso_itemEntregables {
+    max-width: 30ch;
+    text-align: center;
+    justify-self: center;
+}
+
+
+
+/*-------------*/
+
+
+.informacion {
+    background: var(--tai-teal-main);
+    padding-left:  var(--large-page-margin);
+    padding-right: var(--large-page-margin);
+}
+
+.informacion_item {
+    padding-bottom: 2rem;
+    max-width: 75ch;
+}
+
+
+.informacion_tituloItem {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.informacion_listaItems > li {
+    padding-bottom: 1rem;
 }

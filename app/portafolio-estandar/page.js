@@ -92,35 +92,59 @@ export default function PortafolioEstandar() {
 
                 </section>
 
-                <section id="proceso">
-                    <h2>Proceso y entregables</h2>
-                    <ol>
-                        <li>Se programa una <strong>reunión</strong> para hablar sobre tu proyecto, pensar referencias y decisiones de diseño, y conversar sobre cómo preparar el contenido;</li>
-                        <li>Se arma un <strong>sitio funcional</strong> a modo de propuesta, en función de lo pensado;</li>
-                        <li>Sobre la propuesta presentada se hacen <strong>ajustes finales</strong>, y se publica la web en el dominio correspondiente.</li>
+                <section id="proceso" className={styles.proceso}>
+                    <h2 className={styles.proceso_tituloProceso}>Proceso y entregables</h2>
+                    <ol className={styles.proceso_listaPasos}>
+                        <li className={styles.proceso_pasoProceso}>
+                            <span className={styles.proceso_numeroPaso}>01</span>
+                            <p className={styles.proceso_textoPaso}>Se programa una <strong>reunión</strong> para hablar sobre tu proyecto, pensar referencias y decisiones de diseño, y conversar sobre cómo preparar el contenido;</p>
+                        </li>
+                        <li className={styles.proceso_pasoProceso}>
+                            <span className={styles.proceso_numeroPaso}>02</span>
+                            <p className={styles.proceso_textoPaso}>Se arma un <strong>sitio funcional</strong> a modo de propuesta, en función de lo pensado;</p>
+                        </li>
+                        <li className={styles.proceso_pasoProceso}>
+                            <span className={styles.proceso_numeroPaso}>03</span>
+                            <p className={styles.proceso_textoPaso}>Sobre la propuesta presentada se hacen <strong>ajustes finales</strong>, y se publica la web en el dominio correspondiente.</p>
+                        </li>
                     </ol>
-                    <h3>Al publicar el sitio, se te entregan:</h3>
-                    <ul>
-                        <li><strong>Hoja de claves</strong>, con los accesos para los servicios en los que está alojada tu web.</li>
-                        <li>Archivo .zip con los <strong>archivos del sitio</strong>, para restaurarlo o migrarlo de ser necesario.</li>
-                    </ul>
+                    <div className={styles.proceso_contenedorEntregables}>
+                        <h3 className={styles.proceso_tituloEntregables}>Al publicar el sitio, se te entregan:</h3>
+                        <ul className={styles.proceso_listaEntregables}>
+                            <li className={styles.proceso_itemEntregables}><strong>Hoja de claves</strong>, con los accesos para los servicios en los que está alojada tu web.</li>
+                            <li className={styles.proceso_itemEntregables}>Archivo .zip con los <strong>archivos del sitio</strong>, para restaurarlo o migrarlo de ser necesario.</li>
+                        </ul>
+                    </div>
+                </section>
 
-                    <h3>¿Cómo publicamos tu sitio?</h3>
-                    <p>Para ser publicado, un sitio necesita de dos cosas: un <strong>dominio</strong> (la dirección de tu sitio, por ejemplo: “www.taimune.com.ar”) y un <strong>hosting</strong> (el lugar en donde se guardan los contenidos y los archivos del sitio).</p>
-                    <p>En el caso del dominio, te guiamos en la elección, contratación y configuración de un dominio, para que el registro quede hecho a tu nombre y tengas total libertad sobre el mismo. Todos los dominios tienen un precio de contratación y renovación anual, que depende del provedor.</p>
-                    <p>En el caso del hosting, se utilizan servicios de publicación web sin costo, disponibles para sitios sencillos: esto permite obviar el costo de un servicio de hosting tradicional, que incluye una infraestructura que este tipo de sitios no necesita (como por ejemplo, bases de datos o casillas de correo). Como los archivos del sitio son tuyos, siempre se puede mover el sitio a un hosting tradicional en caso de ser necesario.</p>
 
-                    <h3>Qué NO incluye un portafolio estándar</h3>
-                    <ul>
-                        <li>El sitio <strong>no incluye videos</strong> de ningún tipo, pero se pueden presupuestar como un extra.</li>
-                        <li>No se incluyen casillas de correo con dominio personalizado.</li>
-                        <li>El sitio <strong>no incluye un sistema para editar contenidos</strong>; para editarlo hay que modificar los archivos HTML. Si las actualizaciones de contenido son pocas, éstas se pueden presupuestar individualmente; si son muchas, podemos <a href="/#contacto">implementar el sitio como un template de Wordpress</a> para que puedas actualizarlo más facilmente.</li>
-                        <li>Si bien la identidad visual del sitio es personalizable, la diagramación o layout del sitio no se puede modificar (más allá de las variantes y opciones previstas para cada sección). Para diseños con una identidad más personal podemos iniciar un <a href="/#contacto">proceso de diseño personalizado</a>, con un presupuesto acorde a tus necesidades.</li>
-                    </ul>
+                <section className={styles.informacion}>
+                <div className={styles.informacion_item}>
+                        <h3 className={styles.informacion_tituloItem}>¿Cómo publicamos tu sitio?</h3>
+                        <ul className={styles.informacion_listaItems}>
+                            <li>Para ser publicado, un sitio necesita de dos cosas: un <strong>dominio</strong> (la dirección de tu sitio, por ejemplo: “www.taimune.com.ar”) y un <strong>hosting</strong> (el lugar en donde se guardan los contenidos y los archivos del sitio).</li>
+                            <li>En el caso del dominio, te guiamos en la elección, contratación y configuración de un dominio, para que el registro quede hecho a tu nombre y tengas total libertad sobre el mismo. Todos los dominios tienen un precio de contratación y renovación anual, que depende del provedor.</li>
+                            <li>En el caso del hosting, se utilizan servicios de publicación web sin costo, disponibles para sitios sencillos: esto permite obviar el costo de un servicio de hosting tradicional, que incluye una infraestructura que este tipo de sitios no necesita (como por ejemplo, bases de datos o casillas de correo). Como los archivos del sitio son tuyos, siempre se puede mover el sitio a un hosting tradicional en caso de ser necesario.</li>
+                        </ul>
+                    </div>
 
-                    <h3>Valor y tiempos</h3>
-                    <p>Un Portafolio Estándar tiene un valor fijo de $60.000, que cubre todas las caracteristicas y servicios mostrados.</p>
-                    <p>El tiempo de realización es de una semana hábil desde el momento en que recibamos todos los materiales necesarios para trabajar.</p>
+                    <div className={styles.informacion_item}>
+                        <h3 className={styles.informacion_tituloItem}>Qué NO incluye un portafolio estándar</h3>
+                        <ul className={styles.informacion_listaItems}>
+                            <li>El sitio <strong>no incluye videos</strong> de ningún tipo, pero se pueden presupuestar como un extra.</li>
+                            <li>No se incluyen casillas de correo con dominio personalizado.</li>
+                            <li>El sitio <strong>no incluye un sistema para editar contenidos</strong>; para editarlo hay que modificar los archivos HTML. Si las actualizaciones de contenido son pocas, éstas se pueden presupuestar individualmente; si son muchas, podemos <a href="/#contacto">implementar el sitio como un template de Wordpress</a> para que puedas actualizarlo más facilmente.</li>
+                            <li>Si bien la identidad visual del sitio es personalizable, la diagramación o layout del sitio no se puede modificar (más allá de las variantes y opciones previstas para cada sección). Para diseños con una identidad más personal podemos iniciar un <a href="/#contacto">proceso de diseño personalizado</a>, con un presupuesto acorde a tus necesidades.</li>
+                        </ul>
+                    </div>
+
+                    <div className={styles.informacion_item}>
+                        <h3 className={styles.informacion_tituloItem}>Valor y tiempos</h3>
+                        <ul className={styles.informacion_listaItems}>
+                            <li>Un Portafolio Estándar tiene un valor fijo de <strong>$60.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a octubre de 2023).</li>
+                            <li>El tiempo de realización es de <strong>una semana hábil</strong> desde el momento en que recibamos todos los materiales necesarios para trabajar.</li>
+                        </ul>
+                    </div>
                 </section>
             </main>
         </body>
