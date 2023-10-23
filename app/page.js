@@ -42,7 +42,7 @@ export default function Home() {
 
                     {/* Marca */}
                     <div className={styles.seccionMarca}>
-                        <img src="logo-rosa.svg" alt="Logo de Taimuné"/>
+                        <img src="diseño-web-para-artistas.svg" alt="Taimuné - Diseño web para artistas"/>
                         <span>Diseño Web</span>
                     </div>
 
