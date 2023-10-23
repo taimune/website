@@ -4,6 +4,51 @@
     --grid-gap: 12px;
 }
 
+
+
+/* Globales de página */
+
+.contenedorTexto {
+    max-width: 60ch;
+}
+
+.botonBorde,
+.botonBorde:link,
+.botonBorde:visited,
+.botonBorde:hover,
+.botonBorde:active
+{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.25rem 1.5rem 0.55rem;
+    align-self: flex-start;
+    color: var(--tai-pink-main);
+    outline: 1px solid var(--tai-pink-main);
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.botonRelleno,
+.botonRelleno:link,
+.botonRelleno:visited,
+.botonRelleno:hover,
+.botonRelleno:active {
+    display: inline-block;
+    padding: 0.25rem 1.5rem 0.55rem;
+    color: var(--tai-teal-main);
+    cursor: pointer;
+    text-transform: uppercase;
+    background: var(--tai-pink-main);
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+
+/*-------------*/
+
+
 .hero {
     background-color: var(--tai-teal-1300);
     padding: var(--page-margin);
@@ -189,44 +234,6 @@
 .itemEjemplos_gridItemWide {
     grid-column-start: 1;
     grid-column-end: 3;
-}
-
-/* Globales de página */
-
-.contenedorTexto {
-    max-width: 60ch;
-}
-
-.botonBorde,
-.botonBorde:link,
-.botonBorde:visited,
-.botonBorde:hover,
-.botonBorde:active
-{
-    display: inline-block;
-    font-size: 1rem;
-    padding: 0.25rem 1.5rem 0.55rem;
-    align-self: flex-start;
-    color: var(--tai-pink-main);
-    outline: 1px solid var(--tai-pink-main);
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.botonRelleno,
-.botonRelleno:link,
-.botonRelleno:visited,
-.botonRelleno:hover,
-.botonRelleno:active {
-    display: inline-block;
-    padding: 0.25rem 1.5rem 0.55rem;
-    color: var(--tai-teal-main);
-    cursor: pointer;
-    text-transform: uppercase;
-    background: var(--tai-pink-main);
-    font-weight: 300;
-    font-size: 0.9rem;
-    text-decoration: none;
 }
 
 /*-------------*/

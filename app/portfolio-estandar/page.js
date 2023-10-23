@@ -15,7 +15,7 @@ export default function PortfolioEstandar() {
                     <div className={styles.hero_layout}>
                         <h1 className={styles.hero_titulo}>Portfolio <span className={styles.hero_tituloResaltado}>Estándar</span></h1>
                         <p className={styles.hero_subtitulo}>Una web sencilla, expandible y personalizada</p>
-                        <a className={styles.botonBorde}>Contratar</a>
+                        <a href="/#contacto" className={styles.botonBorde}>Contratar</a>
                     </div>
                 </section>
 

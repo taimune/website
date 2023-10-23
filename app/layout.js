@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           {/* IMPORTANTE
           Como la tipografía no se añade correctamente, hay que pegar este link
           en el head del html de forma manual */}
-          <link rel="stylesheet" href="https://use.typekit.net/szq0tzq.css" key="typekit"/>
+          {/* <link rel="stylesheet" href="https://use.typekit.net/szq0tzq.css" key="typekit"/> */}
         </Head>
         {children}
     </html>

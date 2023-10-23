@@ -11,6 +11,106 @@ Agrego:
 xs > 375px
 */
 
+@font-face {
+  font-family: "Serenity";
+  font-weight: 100;
+  font-style: normal;
+  src: url("/fonts/Serenity-thin.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 200;
+  font-style: normal;
+  src: url("/fonts/Serenity-extralight.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/Serenity-light.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/Serenity-medium.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/Serenity-demibold.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Serenity-bold.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 900;
+  font-style: normal;
+  src: url("/fonts/Serenity-heavy.ttf");
+}
+
+/* Italic */
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 100;
+  font-style: italic;
+  src: url("/fonts/Serenity-thin.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 200;
+  font-style: italic;
+  src: url("/fonts/Serenity-extralight.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 300;
+  font-style: italic;
+  src: url("/fonts/Serenity-light.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 500;
+  font-style: italic;
+  src: url("/fonts/Serenity-medium.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 600;
+  font-style: italic;
+  src: url("/fonts/Serenity-demibold.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Serenity-bold.ttf");
+}
+
+@font-face {
+  font-family: "Serenity";
+  font-weight: 900;
+  font-style: italic;
+  src: url("/fonts/Serenity-heavy.ttf");
+}
+
 :root {
 
 /* Color */
