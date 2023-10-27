@@ -9,7 +9,7 @@ export const metadata = {
     openGraph: {
         title: 'Portfolio Simple | Desarrollo de portfolio web',
         description: '¿Necesitás mostrar tus trabajos en línea? Entrá para saber cómo te podemos ayudar.',
-        url: 'https://taimune.com.ar',
+        url: 'https://taimune.com.ar/portfolio-simple',
         siteName: 'Taimune.com.ar',
         images: "/taimune-diseño-web.png",
         locale: 'es_AR',
