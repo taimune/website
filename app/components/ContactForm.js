@@ -21,7 +21,7 @@ export default function ContactForm() {
 
 
                     <select name="servicio" id="servicio" className={styles.formSelect + ' focusable'}>
-                        <option>Portfolio estándar</option>
+                        <option>Portfolio Simple</option>
                         <option>Diseño a medida</option>
                         <option>Desarrollo de interfaces</option>
                     </select>

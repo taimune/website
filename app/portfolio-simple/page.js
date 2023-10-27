@@ -2,12 +2,12 @@ import MainNav from "../components/MainNav";
 import styles from './page.module.css';
 
 export const metadata = {
-    title: 'Portfolio Estándar | Taimuné',
+    title: 'Portfolio Simple | Taimuné',
     description: "¿Necesitás mostrar tus trabajos en línea? Entrá para saber cómo te podemos ayudar.",
     keywords: ["portfolios web para artistas", "diseño web para artistas", "desarrollo web para artistas", "páginas web para artistas", "sitios web para artistas"],
     canonical: "/",
     openGraph: {
-        title: 'Portfolio Estándar | Desarrollo de portfolio web',
+        title: 'Portfolio Simple | Desarrollo de portfolio web',
         description: '¿Necesitás mostrar tus trabajos en línea? Entrá para saber cómo te podemos ayudar.',
         url: 'https://taimune.com.ar',
         siteName: 'Taimune.com.ar',
@@ -18,13 +18,13 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Portfolio Estándar | Desarrollo de portfolio web',
+        title: 'Portfolio Simple | Desarrollo de portfolio web',
         description: '¿Necesitás mostrar tus trabajos en línea? Entrá para saber cómo te podemos ayudar.',
         images: ["/taimune-diseño-web.png"],
     },
   };
 
-export default function PortfolioEstandar() {
+export default function PortfolioSimple() {
 
     return (
         <body>
@@ -32,7 +32,7 @@ export default function PortfolioEstandar() {
                 <MainNav />
                 <section id="hero" className={styles.hero}>
                     <div className={styles.hero_layout}>
-                        <h1 className={styles.hero_titulo}>Portfolio <span className={styles.hero_tituloResaltado}>Estándar</span></h1>
+                        <h1 className={styles.hero_titulo}>Portfolio <span className={styles.hero_tituloResaltado}>Simple</span></h1>
                         <p className={styles.hero_subtitulo}>Una web sencilla, expandible y personalizada</p>
                         <a href="/#contacto" className={styles.botonBorde}>Contratar</a>
                     </div>
@@ -43,7 +43,7 @@ export default function PortfolioEstandar() {
                         <div className={styles.descripcion_panelTexto}>
                             <div className={styles.contenedorTexto}>
                                 <h2 className={styles.descripcion_titulo}>De qué se trata</h2>
-                                <p>El <strong>Portfolio Estándar</strong> está pensado como una plataforma desde la cual comenzar a mostrar tu producción. Es una propuesta sencilla y accesible, pero que a la vez prioriza la personalización y la posibilidad de reflejar de extensión a futuro.</p>
+                                <p>El <strong>Portfolio Simple</strong> está pensado como una plataforma desde la cual comenzar a mostrar tu producción. Es una propuesta sencilla y accesible, pero que a la vez prioriza la personalización y la posibilidad de reflejar de extensión a futuro.</p>
                                 <p>Construimos un sitio sobre una estructura estandarizada, pero adaptable en términos de color, tipografía, escala y espaciados; el resultado es un sitio amoldado a tu imagen, creado con un proceso de trabajo sencillo y claro.</p>
                                 <p>El sitio que recibís es completamente tuyo: junto con la publicación del sitio se te entregan los archivos para que puedas disponer de ellos libremente, así como los accesos de los servicios usados para poner el sitio en linea.</p>
                             </div>
@@ -150,7 +150,7 @@ export default function PortfolioEstandar() {
                     </div>
 
                     <div className={styles.informacion_item}>
-                        <h3 className={styles.informacion_tituloItem}>Qué NO incluye un portfolio estándar</h3>
+                        <h3 className={styles.informacion_tituloItem}>Qué NO incluye esta propuesta:</h3>
                         <ul className={styles.informacion_listaItems}>
                             <li>El sitio <strong>no incluye videos</strong> de ningún tipo, pero se pueden presupuestar como un extra.</li>
                             <li>No se incluyen casillas de correo con dominio personalizado.</li>
@@ -162,7 +162,7 @@ export default function PortfolioEstandar() {
                     <div className={styles.informacion_item}>
                         <h3 className={styles.informacion_tituloItem}>Valor y tiempos</h3>
                         <ul className={styles.informacion_listaItems}>
-                            <li>Un Portfolio Estándar tiene un valor fijo de <strong>$60.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a octubre de 2023). El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
+                            <li>Un Portfolio Simple tiene un valor fijo de <strong>$70.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a octubre de 2023). El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
                             <li>El tiempo de realización es de <strong>una semana hábil</strong> desde el momento en que recibamos las referencias y todos los contenidos necesarios para el sitio, incluyendo la construcción de la propuesta y las revisiones finales.</li>
                             <li>Una vez publicado el sitio, tenés una <strong>garantía de 30 días</strong> por cualquier falla o imprevisto.</li>
                         </ul>

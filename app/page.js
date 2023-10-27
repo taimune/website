@@ -121,9 +121,9 @@ export default function Home() {
                     {/* <p>Diseñé algunos servicios para que puedas elegir entre (...)</p> */}
                     <div className={styles.contenedorServicios}>
                         <ItemServicio
-                            tituloServicio="Portfolio Estándar"
+                            tituloServicio="Portfolio Simple"
                             descripcionServicio="Diseño de un portfolio web sobre una estructura estandarizada, expandible, y pensada para mostrar tus proyectos con una imagen cuidada y en plazos cortos."
-                            url="/portfolio-estandar"
+                            url="/portfolio-simple"
                             textoLink="Ver detalles"
                             botonResaltado={true}
                         />
