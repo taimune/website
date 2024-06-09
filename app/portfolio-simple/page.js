@@ -162,7 +162,7 @@ export default function PortfolioSimple() {
                     <div className={styles.informacion_item}>
                         <h3 className={styles.informacion_tituloItem}>Valor y tiempos</h3>
                         <ul className={styles.informacion_listaItems}>
-                            <li>Un Portfolio Simple tiene un valor fijo de <strong>$110.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a diciembre de 2023). El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
+                            <li>Un Portfolio Simple tiene un valor fijo de <strong>$180.000</strong>, que cubre todas las caracteristicas y servicios mostrados (actualizado a junio de 2024). El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
                             <li>El tiempo de realización es de <strong>una semana hábil</strong> desde el momento en que recibamos las referencias y todos los contenidos necesarios para el sitio, incluyendo la construcción de la propuesta y las revisiones finales.</li>
                             <li>Una vez publicado el sitio, tenés una <strong>garantía de 30 días</strong> por cualquier falla o imprevisto.</li>
                         </ul>
