@@ -20,7 +20,7 @@
 {
     display: inline-block;
     font-size: 1rem;
-    padding: 0.25rem 1.5rem 0.55rem;
+    padding: 0.55rem 1.5rem;
     align-self: flex-start;
     color: var(--tai-pink-main);
     outline: 1px solid var(--tai-pink-main);
@@ -35,7 +35,7 @@
 .botonRelleno:hover,
 .botonRelleno:active {
     display: inline-block;
-    padding: 0.25rem 1.5rem 0.55rem;
+    padding: 0.55rem 1.5rem;
     color: var(--tai-teal-main);
     cursor: pointer;
     text-transform: uppercase;
@@ -81,7 +81,7 @@
 }
 
 .hero_tituloResaltado {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .hero_subtitulo {
@@ -209,7 +209,7 @@
 
 .itemEjemplos_titulo {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .itemEjemplos_texto {

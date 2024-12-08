@@ -121,12 +121,12 @@ a:hover {
 /*Títulos de sección, e items que no son el título de sección, pero se ven como tal*/
 h2, .h2 {
   font-size: 2.6rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h3, .h3 {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .header-servicio {
@@ -137,7 +137,7 @@ h3, .h3 {
 /* Otros items tipográficos */
 
 strong {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 textarea {
