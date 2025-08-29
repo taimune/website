@@ -55,9 +55,13 @@ export default function Home() {
                     <div className={styles.aboutBackground}></div> */}
                     <div className={styles.aboutContent}>
                         <h2 className='sr-only'>Sobre mí</h2>
-                        <span className='h2'>Quién soy</span>
-                        <p>Me llamo Maxi, y hace varios años trabajo construyendo sitios web. Mi foco principal está en armar sitios con impronta visual; en estos años trabajé principalmente para artistas y proyectos culturales.</p>
-                        <p>Me interesa ayudar a las personas a mostrar sus proyectos desde una plataforma propia, y a construir una imagen que complemente y refuerce lo que tienen para mostrar.</p>
+                        <span className='h2'>Sobre mí</span>
+
+						<p>Me llamo Maximiliano Cortés, soy Licenciado en Artes Electrónicas y docente en la misma carrera. Desde 2018 trabajo construyendo sitios web para artistas y proyectos culturales, ya sea formando parte de equipos multidisciplinarios, o construyendo sitios íntegramente como realizador.</p>
+
+						<p>En 2022 le di forma a <b>Taimuné</b>, que concebí como un taller personal de creación desde el cual contribuir al mundo del arte: un lugar que me permite construir plataformas para mostrar proyectos y obras de artistas, así como experimentar con el medio web en sí mismo como material.</p>
+
+						<p>Me gusta abordar mi trabajo desde un proceso creativo que integre la visión única que me propone cada proyecto junto con las posibilidades que ofrece la web como tecnología.</p>
                     </div>
                 </section>
 
@@ -91,12 +95,12 @@ export default function Home() {
 
                         <Proyecto
                             urlImagen='/web-sound-window.png'
-                            url='https://melmann.site/sound-window'
-                            nombre='Sound Window'
+                            url='https://melmann.site/musica-aperta/'
+                            nombre='Música Aperta'
                             año='2020 | Experiencia audiovisual interactiva'
                             descripcion='Diseño y programación - Plugin de WordPress'
                         />
-
+{/* 
                         <Proyecto
                             urlImagen='/web-silvina-de-las-carreras.png'
                             url='https://silvinadelascarreras.com.ar/'
@@ -111,7 +115,7 @@ export default function Home() {
                             nombre='Colectivo Arkhé'
                             año='2019 | Colectivo de investigación y producción audiovisual'
                             descripcion='Diseño y programación - Sitio estático'
-                        />
+                        /> */}
                     </div>
                 </section>
 
