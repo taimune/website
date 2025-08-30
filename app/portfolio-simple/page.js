@@ -153,7 +153,6 @@ export default function PortfolioSimple() {
                         <h3 className={styles.informacion_tituloItem}>Qué NO incluye esta propuesta:</h3>
                         <ul className={styles.informacion_listaItems}>
                             <li>El sitio <strong>no incluye videos</strong> de ningún tipo, pero se pueden presupuestar como un extra.</li>
-                            <li>No se incluyen casillas de correo con dominio personalizado.</li>
                             <li>El sitio <strong>no incluye un sistema para editar contenidos</strong>; para editarlo hay que modificar los archivos HTML. Si las actualizaciones de contenido son pocas, éstas se pueden presupuestar individualmente; si son muchas, podemos <a href="/#contacto">implementar el sitio como un template de Wordpress</a> para que puedas actualizarlo más facilmente.</li>
                             <li>Si bien la identidad visual del sitio es personalizable, la diagramación o layout del sitio no se puede modificar (más allá de las variantes y opciones previstas para cada sección). Para diseños con una identidad más personal podemos iniciar un <a href="/#contacto">proceso de diseño personalizado</a>, con un presupuesto acorde a tus necesidades.</li>
                         </ul>
@@ -162,7 +161,7 @@ export default function PortfolioSimple() {
                     <div className={styles.informacion_item}>
                         <h3 className={styles.informacion_tituloItem}>Valor y tiempos</h3>
                         <ul className={styles.informacion_listaItems}>
-                            <li>Un Portfolio Simple tiene un valor fijo de <strong>$220.000</strong> (actualizado a noviembre de 2024), que cubre todas las caracteristicas y servicios mostrados (actualizado a junio de 2024). El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
+                            <li>Un Portfolio Simple tiene un valor fijo de <strong>$280.000</strong> (actualizado a agosto de 2025), que cubre todas las caracteristicas y servicios mostrados. El pago es en dos partes: 50% al principio, después de aprobarse el inicio del trabajo; y 50% al final, antes de la publicación del sitio.</li>
                             <li>El tiempo de realización es de <strong>una semana hábil</strong> desde el momento en que recibamos las referencias y todos los contenidos necesarios para el sitio, incluyendo la construcción de la propuesta y las revisiones finales.</li>
                             <li>Una vez publicado el sitio, tenés una <strong>garantía de 30 días</strong> por cualquier falla o imprevisto.</li>
                         </ul>
